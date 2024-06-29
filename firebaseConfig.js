@@ -7,14 +7,13 @@ import { getFirestore, collection} from 'firebase/firestore';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDCmnfoSjssPrHihR6AxqWPwrLmdz_PYoU",
-  authDomain: "sesliasistan-2921c.firebaseapp.com",
-  projectId: "sesliasistan-2921c",
-  storageBucket: "sesliasistan-2921c.appspot.com",
-  messagingSenderId: "343889494229",
-  appId: "1:343889494229:web:61e337f0c04ae27a94225c"
+  apiKey: "AIzaSyAldAx2i5PLTUZqpuUSfRXOR7aPv9LjNE8",
+  authDomain: "mprojesi-43690.firebaseapp.com",
+  projectId: "mprojesi-43690",
+  storageBucket: "mprojesi-43690.appspot.com",
+  messagingSenderId: "320686710438",
+  appId: "1:320686710438:web:36a641632e46ec8ccf1e67"
 };
-
 const app = initializeApp(firebaseConfig);
 
 export const auth = initializeAuth(app,{
